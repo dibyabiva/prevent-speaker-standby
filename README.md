@@ -6,7 +6,7 @@ Inaudible soundfile played periodically to prevent speaker standby.
 ```
 git clone https://github.com/ll-nick/prevent-speaker-standby.git
 cd prevent-speaker-standby
-./installCrontab.sh
+./isntall_service.sh
 ```
 
 ## What's this?
@@ -14,7 +14,8 @@ cd prevent-speaker-standby
 This repo contains a 3-second sound file that plays a 22kHz sine wave, i.e. inaudible to the human ear.
 It consists of 1s fade in, 1s full amplitude and 1s fade out to prevent clicking.
 
-The install script provided will install a crontab to play this file periodically every 4 minutes.
+The installCronTab script provided will install a crontab to play this file periodically every 4 minutes.
+Alternatively, the install_service script will isntall a systemd service.
 This should prevent speakers to go into standby mode.
 
 Additionally, there is a sound file marked as test which can be used for testing if the crontab is actually working.
