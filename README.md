@@ -15,7 +15,7 @@ This repo contains a 3-second sound file that plays a 22kHz sine wave, i.e. inau
 It consists of 1s fade in, 1s full amplitude and 1s fade out to prevent clicking.
 
 The installCronTab script provided will install a crontab to play this file periodically every 4 minutes.
-Alternatively, the install_service script will isntall a systemd service.
+Alternatively, the install_service script will install a systemd service.
 This should prevent speakers to go into standby mode.
 
 Additionally, there is a sound file marked as test which can be used for testing if the crontab is actually working.
