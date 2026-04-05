@@ -6,7 +6,7 @@ Inaudible soundfile played periodically to prevent speaker standby.
 ```
 git clone https://github.com/ll-nick/prevent-speaker-standby.git
 cd prevent-speaker-standby
-./isntall_service.sh
+./install_service.sh
 ```
 
 ## What's this?
